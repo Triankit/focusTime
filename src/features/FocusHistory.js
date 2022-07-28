@@ -21,7 +21,11 @@ export default FocusHistory = ({history}) => {
   return (
     <View style={styles.viewContainer}>
       <Text style={styles.title}>Thing's we have focused on</Text>
-      <FlatList data={history} renderItem={renderItem} />
+      <FlatList
+        keyExtractor={(item, index) => item[index]}
+        data={history}
+        renderItem={renderItem}
+      />
     </View>
   );
 };
