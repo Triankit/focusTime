@@ -76,4 +76,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Made with 💡 and focus by [Triankit](https://github.com/Triankit)
+Made with 💡 and focus by [Ankit](https://github.com/Triankit)
